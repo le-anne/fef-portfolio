@@ -211,8 +211,8 @@ footer {
     background-image: url(images/github.svg);
 }
 
-.youtube {
-    background-image: url(images/youtube.svg);
+.codepen {
+    background-image: url(images/codepen.svg);
 }
 
 .social-link:hover {
