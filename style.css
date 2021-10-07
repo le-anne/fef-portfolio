@@ -157,17 +157,13 @@ cite {
 }
 
 article {
-  display: flex;
-  max-width: var(--max-width);
-  margin: 0 auto var(--spacing);
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: var(--spacing);
 }
 
 .article-img {
-  display: block;
-  flex-grow: 0;
-  max-width: clamp(100px, 40%, 300px);
-  margin-left: var(--spacing);
-  object-fit: cover;
+    margin-bottom: 2rem;
 }
 
 img.article-img: {
