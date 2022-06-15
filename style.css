@@ -210,6 +210,8 @@ footer {
 }
 
 @media (min-width: 800px) {
+
+
   .about-container {
     display: flex;
     align-items: flex-start;
@@ -226,9 +228,8 @@ footer {
   }
 
   .article-img {
-    width: auto;
-    height: auto;
-    margin-left: 2rem;
+      max-width: 350px;
+      margin-left: 2rem;
   }
 }
 
@@ -236,5 +237,14 @@ footer {
   .social {
     display: flex;
     justify-content: center;
+  }
+  h2 {
+    font-size: 2em;
+
+  .article-img {
+    width: 300px;
+    height: auto;
+    margin-left: 2rem;
+  }
   }
 }
