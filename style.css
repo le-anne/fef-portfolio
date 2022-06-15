@@ -228,7 +228,7 @@ footer {
   }
 
   .article-img {
-    width: 300px;
+    width: 228px;
     height: auto;
     margin-left: 2rem;
   }
@@ -241,10 +241,10 @@ footer {
   }
   h2 {
     font-size: 2em;
-
+  }
   .article-img {
     margin-left: 2em;
     object-fit: cover;
   }
-  }
-}
+ }
+
