@@ -228,10 +228,17 @@ footer {
   }
 
   .article-img {
-    width: 228px;
-    height: auto;
     margin-left: 2rem;
   }
+
+  img.article-img {
+    height: 250px;
+    width: 288px; 
+    margin: auto;
+    margin-bottom: 10px;
+ }
+
+
 }
 
 @media (max-width: 800px) {
@@ -247,10 +254,3 @@ footer {
     object-fit: cover;
   }
  }
- img.article-img {
-  height: 250px;
-  width: 288px; 
-  margin: auto;
-  margin-bottom: 10px;
- }
-
