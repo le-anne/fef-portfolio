@@ -228,8 +228,9 @@ footer {
   }
 
   .article-img {
-      max-width: 350px;
-      margin-left: 2rem;
+    width: 300px;
+    height: auto;
+    margin-left: 2rem;
   }
 }
 
@@ -242,9 +243,8 @@ footer {
     font-size: 2em;
 
   .article-img {
-    width: 300px;
-    height: auto;
-    margin-left: 2rem;
+    margin-left: 2em;
+    object-fit: cover;
   }
   }
 }
