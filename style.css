@@ -226,7 +226,8 @@ footer {
   }
 
   .article-img {
-    margin-left: 2rem;
+    margin-left: 2em;
+    object-fit: cover;
   }
 
   img.article-img {
