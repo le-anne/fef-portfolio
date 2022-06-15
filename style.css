@@ -131,20 +131,20 @@ cite {
 }
 
 .about-container {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
 }
+
 
 .about-img {
   display: block;
   width: 100%;
   max-width: 350px;
-  margin: 0 auto var(--spacing);
-  filter: grayscale(100%);
+  margin: 10px 50px 20px 0;
 }
 
 .about-img:hover {
-  filter: grayscale(0);
+  filter: grayscale(100%);
 }
 
 article {
