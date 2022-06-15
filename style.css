@@ -227,12 +227,14 @@ footer {
 
   .article-img {
     max-width: 350px;
+    height: auto;
     margin-left: 2rem;
   }
 }
 
 @media (max-width: 800px) {
   .social {
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
   }
 }
