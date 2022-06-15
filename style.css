@@ -226,7 +226,7 @@ footer {
   }
 
   .article-img {
-    max-width: 350px;
+    width: auto;
     height: auto;
     margin-left: 2rem;
   }
